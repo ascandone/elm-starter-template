@@ -5,10 +5,6 @@ import Html exposing (..)
 import Html.Attributes exposing (class)
 
 
-type alias Flags =
-    {}
-
-
 main : Program Flags Model Msg
 main =
     Browser.element
@@ -17,6 +13,10 @@ main =
         , update = update
         , subscriptions = subscriptions
         }
+
+
+type alias Flags =
+    {}
 
 
 type alias Model =
