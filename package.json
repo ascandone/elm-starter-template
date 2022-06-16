@@ -6,7 +6,8 @@
     "dev": "parcel index.html",
     "build": "parcel build index.html",
     "test": "elm-test",
-    "test:watch": "elm-test --watch"
+    "test:watch": "elm-test --watch",
+    "format": "prettier --cache --write src/**/*.js"
   },
   "devDependencies": {
     "@parcel/transformer-elm": "^2.0.1",
@@ -15,7 +16,7 @@
     "elm-test": "^0.19.1-revision7",
     "parcel": "^2.6.0",
     "postcss": "^8.4.5",
-    "prettier": "^2.5.1",
+    "prettier": "^2.7.1",
     "tailwindcss": "^3.0.10"
   }
 }
