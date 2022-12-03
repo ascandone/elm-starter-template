@@ -11,7 +11,7 @@
     "lint:elm": "elm-review"
   },
   "devDependencies": {
-    "@parcel/transformer-elm": "^2.0.1",
+    "@parcel/transformer-elm": "2.8.0",
     "autoprefixer": "^10.4.1",
     "elm": "^0.19.1-5",
     "elm-review": "^2.7.2",
